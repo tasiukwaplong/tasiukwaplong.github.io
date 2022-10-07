@@ -1,0 +1,87 @@
+img {
+    height: 200px;
+    opacity: 0.5;
+    border-radius: 90px 90px;
+}
+img:hover {
+    opacity: 1;
+}
+table {
+    width: 90%;
+    border-collapse: collapse;
+    /* margin-right: 5px;  */
+}
+
+table, td, th {
+    border: 2px solid #000000;
+}
+input[type='text'], input[type="email"], input[type='tel'], select, textarea {
+    display: block;
+}
+.btn {
+    padding: 5px;
+    color: #ffffff;
+}
+input[type='submit']{
+    background-color: green;
+}
+input[type='reset']{
+    background-color: red;
+}
+
+a{
+    text-decoration: none;
+    margin-right: 15px;
+}
+#table{
+    float: right;
+}
+th, td{
+    text-align: left;
+}
+
+form{
+    margin: 2em 0em 2em 0em;
+}
+#navigation-list {
+    list-style-type: none;
+    background-color: #000000;
+    padding: 20px;
+}
+#navigation-list li{
+    display: inline;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+}
+#navigation-list li:hover{
+    background-color: gray;
+}
+#navigation-list a:visited, #navigation-list a:active{
+    color: #fff;
+}
+body{
+    font-family: Cursive, serif;
+    background-color:#f4f4f4;
+}
+main {
+    border: 2px solid #000000;
+    padding-left: 2em;
+    /* padding-bottom: 200px; */
+}
+tr:nth-child(even){
+    background-color: brown;
+    color: #fff;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+section{
+    padding-bottom: 400px;
+    border-bottom: 2px solid #000000;
+}
+
+#cvHeader {
+    position: sticky;
+    bottom: 0;
+}
